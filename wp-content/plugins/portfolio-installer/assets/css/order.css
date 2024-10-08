@@ -1,0 +1,27 @@
+
+/* ------------------------------------------------ */
+/* Order Styles */
+/* ------------------------------------------------ */
+
+.menu-item {
+	display: inline-block;
+	text-align: center;
+	float: left;
+	margin: 10px;
+	border: 0;
+}
+
+.menu-item-bar {
+	margin: 0;
+}
+
+.menu-item-bar .menu-item-handle {
+	width: auto;
+	box-shadow: none;
+	padding: 10px;
+}
+
+.menu-item-bar .menu-item-handle:hover {
+	border-color: #0073aa;
+	box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}

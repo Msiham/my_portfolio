@@ -1,0 +1,60 @@
+/*
+ * Fixing options tree styles
+ * Copyright (c) 2016
+ * Licensed under the MIT license.
+ */
+
+#page-ot_theme_options .format-setting-label,
+.ot-metabox-wrapper .format-setting-label {
+  border-bottom: 0 !important;
+  margin: 0 !important;
+}
+
+#page-ot_theme_options .format-settings,
+.ot-metabox-wrapper .format-settings {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#page-ot_theme_options .format-setting-wrap,
+#page-ot_theme_options .option-tree-sortable .format-settings,
+.ot-metabox-wrapper .format-setting-wrap {
+  padding: 20px !important;
+}
+
+#page-ot_theme_options .description h3,
+#page-ot_theme_options .format-setting-label .label,
+#page-ot_theme_options .format-setting-label .label,
+#page-ot_theme_options .format-setting-label {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+#page-ot_theme_options .format-setting-label .label {
+  margin-bottom: 20px !important;
+  margin-top: 0px !important;
+}
+
+#option-tree-logo {
+  display: none !important;
+}
+
+#option-tree-settings-api .postbox {
+  margin: 0 !important;
+}
+
+.ot-metabox-tabs.ui-tabs .ot-metabox-panels {
+  padding: 0 !important;
+}
+
+/* Hide metabox */
+
+.post-type-portfolio-item .not-in-portfolio-wrap,
+.post-type-page .not-in-page-wrap,
+.post-type-post .not-in-post-wrap {
+  display: none;
+}
+
+.format-setting-inner p {
+  display: block;
+  overflow: hidden;
+}
